@@ -1,0 +1,362 @@
+*,
+*:before;
+*:after; {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0px;
+}
+
+body {
+	font-family: "Raleway", "Open Sans";
+	color: #c9c9c9;
+	font-size: 16px;
+	position: relative;
+	height: 100vh;
+}
+.container-1 {
+	background: linear-gradient(#2e3237,#6b798c) no-repeat;
+	height: 100vh;	
+}
+
+.primary-container {
+	background:
+    linear-gradient( 
+    	rgba(0, 0, 0, 0.85), 
+    	rgba(0, 0, 0, 0.85)), 
+    url("./Assets/Images/library-books-tv-multimedia-room-modern-interior-blurry.jpg");
+	min-width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: relative;
+}
+
+.container-2 {
+	 	background-color: #3a3a3a;
+	 	height: 60px;
+	 	width: 100%;
+	 	position: absolute;
+}
+
+header {
+	width: 1200px;
+	margin: auto;
+	height: 60px;
+	position: relative;
+}
+/*
+============================================================
+Buttons
+============================================================
+*/
+button {
+height: 40px;
+background: none;
+border-radius: 30px;
+border: 1px solid #c9c9c9;
+}
+
+button:hover {
+	box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+
+.fa-chevron-right {
+	color: #c9c9c9;
+}
+
+button:active {
+	background-color: #0080ff;
+	color: #fff !important;
+	border: 0;
+}
+
+button:active .fa-chevron-right {
+	color: #fff;
+}
+
+button:focus {
+	outline: none !important;
+}
+
+.btn {
+	text-align: center;
+}
+.btn button{
+	text-transform: uppercase;
+	font-size: 12px;
+	width: 160px;
+	color: #c9c9c9;
+	font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn button:focus {
+	background-color: #0080ff;
+	color: #fff !important;
+	border: 0;
+}
+
+.go-btn {
+	width: 100%;
+	text-align: center;
+}
+.go-btn button {
+	width: 100px;
+	margin-top: 60px;
+
+}
+.home-buttons button {
+   width: 180px;
+   color: #c9c9c9;
+   font-weight: 500;
+
+}
+/*
+============================================================
+Log In Page
+============================================================
+*/
+
+.container-1 .logo {
+	text-align: center;
+	padding-top: 120px;
+}
+
+form {
+	text-align: center;
+	padding-top: 30px;
+	width: 320px;
+	margin: auto;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+}
+input {
+	display: block;
+	background: none;
+	border: none;
+	color: #fff;
+	width: 90%;
+	font-weight: 200;
+	height: 23px;
+	font-weight: 500;
+
+}
+input:last-of-type {
+	margin-bottom: 5px;
+}
+
+input:focus {
+	outline: none;
+}
+
+input::-webkit-input-placeholder {
+	color: #c9c9c9;
+	font-weight: 300;
+} 
+small {
+	float: right;
+}
+
+small:before, small:after {
+	content:"";
+	display: table;
+}
+small:after {
+	clear: both;
+}
+
+small {
+	*zoom: 1;
+	cursor: pointer;
+}
+small a {
+	color: #c9c9c9;
+}
+
+small a:hover, small a:active {
+	color : #fff;
+	font-weight: 500;
+}
+.username {
+	border-bottom: 1px solid #c9c9c9;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.username:before,
+.username:after {
+	content: "";
+	display: table;
+}
+
+.username:after {
+	clear: both;
+}
+
+.username {
+	*zoom: 1;
+}
+.username input {
+	float: right;
+	margin-bottom: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.username img {
+	float: left;
+	margin-bottom: 4px;
+}
+
+.password img {
+	float: left;
+	margin-top: 9px;
+}
+
+.password input {
+	float: right;
+}
+
+.password:before,
+.password:after {
+	content: "";
+	display: table;
+}
+
+.password:after {
+	clear: both;
+}
+
+.password {
+	*zoom: 1;
+	position: relative;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+.password input {
+	top: 0;
+	right:0;
+}
+/*
+============================================================
+Typography
+============================================================
+*/
+
+h1 {
+	font-weight: 200;
+	text-align: center;
+	font-size: 40px;
+}
+
+h2 {
+	font-weight: 300;
+	text-align: center;
+	font-size: 24px;
+	color: #0080ff;
+}
+
+/*
+===========================================================
+Header
+===========================================================
+*/
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	padding-left: 0;
+}
+
+li {
+	display: inline-block;
+	margin-right: 22px;
+	margin-top: 12px;
+}
+
+li:last-child {
+	margin-right: 0;
+}
+
+/*
+===========================================================
+Home Page
+===========================================================
+*/
+
+.quote {
+	font-style: italic;
+	position: relative;
+	z-index: 7500;
+	width: 1200px;
+	margin: auto;
+	padding-top: 80px;
+	font-weight: 200;
+	font-size: 14px;
+	text-align: center;
+}
+
+.parent-section {
+	width: 1200px;
+	height: auto;
+	position: relative;
+	margin: auto;
+	padding-top: 30px;
+}
+.books, .members, .magzines, .others {
+	width: 480px;
+	display: inline-block;
+	float: left;
+	padding: 60px 60px 60px 60px;
+	position: relative;
+}
+
+.magzines {
+	clear: both;
+}
+.books-btn, .members-btn, .magzines-btn, .others-btn {
+  width: 370px;
+  margin: auto;
+}
+
+.home-buttons button:last-of-type {
+  margin-top:12px;
+}
+
+.parent-section:before, .parent-section:after {
+	content: "";
+	display: table;
+}
+
+.parent-section:after {
+	clear: both;
+}
+
+.parent-section {
+	*zoom: 1;
+}
+.parent-section img {
+	display: block;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+	/*
+===========================================================
+Logo 
+===========================================================
+*/
+
+header .logo {
+	position: absolute;
+	right: 0;
+	padding-top: 0;
+	margin-top: 5px;
+}
